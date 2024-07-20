@@ -1,4 +1,4 @@
-# Cryptocurrency Data Analysis with CCXT
+# CryptoMA200Analyzer
 
 This project demonstrates how to use the [CCXT](https://github.com/ccxt/ccxt) library to fetch and analyze cryptocurrency data from the OKX exchange. The data is processed in Python and displayed in Google Colab.
 
@@ -51,6 +51,8 @@ The output will display a DataFrame with the following columns:
 - **Current Price**: The latest closing price.
 - **Smoothed MA**: The calculated 200-period moving average, smoothed by a 9-period SMA.
 - **Proximity (%)**: The relative proximity of the current price to the smoothed MA, expressed as a percentage.
+
+![Example](ExampleOutput.png)
 
 ## Troubleshooting
 
